@@ -17,7 +17,7 @@ img{
 }
 #superTopBar{
     display: flex;
-    flex: row;
+    flex-direction: row;
 }
 #topBar{
     display: flex;
@@ -33,7 +33,30 @@ img{
     text-align: center;
 }
 
-#logo {
-    width: 15.5vw;
+#logoBox {
+    width: 16vw;
     height: 15vw;
+}
+
+#bodyBox{
+    display: flex;
+    flex-direction: row;
+}
+#infoBar{
+    margin-top: 0.5vh;
+    
+    width: 16vw;
+    height: auto;
+    border-style:solid;
+    background-color: gray;
+}
+
+.makeBigger{
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+}
+
+.hidden{
+    display: none;
 }
